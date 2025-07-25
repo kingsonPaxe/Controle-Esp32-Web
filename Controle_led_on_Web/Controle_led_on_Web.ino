@@ -3,8 +3,8 @@
 #include <ESPAsyncWebServer.h>
 
 
-const char* ssid = "4G-UFI-D878";
-const char* password = "felicidade1234";
+const char* ssid = ""; // Aqui você vai escrever o nome da sua Rede
+const char* password = ""; // Senha da rede
 
 AsyncWebServer server(80);
 
